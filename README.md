@@ -7,11 +7,17 @@ This repository contains source code and models for FastBEV online real-time inf
 
 ---
 
+
+
++ demo
+
+Testing on the Nuscenes dataset.
+
 ~~~python
 ros2 launch fastbev fastbev_node.py
 ~~~
 
 
 <p align="center">
-  <img src="./demo/1.png" width="600" height="725" />
+  <img src="./demo/1.png" width="450" height="562" />
 </p>
