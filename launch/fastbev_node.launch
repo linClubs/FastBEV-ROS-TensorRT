@@ -1,0 +1,10 @@
+<launch>
+    <!-- model_name: resnet50/resnet50int8/swint -->
+    <!-- precision: fp16/int8 -->
+    <param name="model_name" type="string" value="resnet18" />
+    <param name="precision" type="string" value="fp16" />
+
+    <node pkg="fastbev" name="fastbev_node" type="fastbev_node" output="screen" />
+    <!-- <node pkg="rviz" name ="rviz_fastbev_node" type="rviz"
+        respawn="false" output="screen" args="-d $(find fastbev)/launch/1.rviz"/> -->
+</launch>
