@@ -5,6 +5,13 @@ This repository contains source code and models for FastBEV online real-time inf
 
 + reference [CUDA-FastBEV](https://github.com/Mandylove1993/CUDA-FastBEV)
 
+---
+
+~~~python
+ros2 launch fastbev fastbev_node.py
+~~~
+
+
 <p align="center">
   <img src="./demo/1.png" width="600" height="725" />
 </p>
