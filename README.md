@@ -14,7 +14,7 @@ This repository contains source code and models for FastBEV online real-time inf
 Testing on the Nuscenes dataset.
 
 ~~~python
-roslaunch fastbev fastbev_node.py
+roslaunch fastbev fastbev_node.launch
 ~~~
 
 
